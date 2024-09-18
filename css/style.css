@@ -1,0 +1,41 @@
+.flex{
+display: flex;
+justify-content: right;
+}
+
+h1{
+    text-align: center;
+    color: green;
+}
+
+p{ 
+    color: blue;
+    margin: 10px;
+    font-size: 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 50px;
+} 
+
+button{
+    background-color: blueviolet;
+    color: white;
+    margin-left: 50px;
+    
+}
+
+#demo3{
+    color: blue;
+    font-size: 20px;
+}
+
+div{
+    border: 2px solid green;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+label, h3{
+    margin-left: 10px;
+}

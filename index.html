@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tp js w3s</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div style="background-color: rgb(166, 97, 97)">
+      <h1>TPS JS DOM EVENTS W3S</h1>
+    </div>
+    <section class="flex">
+      <section>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <div>
+          <p id="demo3"></p>
+          <button type="button" onclick="ecrireDansParagraphe()">
+            ecriture dans un paragraghe
+          </button>
+        </div>
+
+        <!-- <button
+          type="button"
+          onclick="document.write('ecriture sur une page html après un click sur un bouton')"
+        >
+          ecriture sur la page html
+        </button>-->
+        <div>
+          <p>Clicker sur le bouton ci-dessous pour imprimer la page courante</p>
+          <button onclick="print()">imprimer cette page</button>
+        </div>
+
+        <div>
+          <p id="demo4">
+            Clicker sur le bouton ci-dessous pour changer la couleur de ce
+            paragraphe
+          </p>
+          <button type="button" onclick="changerCouleur()">
+            changer la couleur du texte
+          </button>
+        </div>
+
+        <div>
+          <p>
+            Cliquer sur le bouton pour renseigner votre prénom et nom et
+            recevoir un message de bienvenu
+          </p>
+          <button type="button" onclick="afficherMessage()">
+            Se connecter
+          </button>
+        </div>
+
+        <div>
+          <p id="demo5"></p>
+          <button type="button" onmouseover="afficherDate()">
+            Date du jour?
+          </button>
+        </div>
+      </section>
+      <section>
+        <div>
+          <p>
+            Entrez votre nom pour voir l'effet du au changement du champ Nom
+          </p>
+          <label for="">Nom</label>
+          <input type="text" id="demo6" />
+        </div>
+        <div>
+          <p>
+            Copier le texte dans le champ Action et un message de confirmation
+            sera affiché
+          </p>
+          <label for="">Action</label>
+          <input type="text" id="demo7" value="Copier ce texte" />
+          <h3 id="cop"></h3>
+        </div>
+
+        <div>
+          <p>
+            Appuyer sur les touches du clavier Ctrl+P pour imprimer la page et
+            un message d'alerte sera affiché à la fin de l'impression
+          </p>
+        </div>
+        <div>
+          <p>
+            Si vous cliquer sur submit sans remplir le champ formation, un
+            message d'alerte sera affiché
+          </p>
+          <form action="">
+            <label for="">Formation</label>
+            <input type="text" id="myinput" required />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
